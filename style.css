@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    width: 1200px;
+
+}
+
+.wrapper {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.game_icon {
+    margin: auto;
+}
+
+.game_icon_img {
+    width: 10%;
+}
+
+.wrapper_btn {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+.btn_field {
+    background-color: white;
+    border: solid 1px black;
+}
+
+.clearing_game_btn {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.field_selection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.field_selection img {
+    width: 120px;
+}
+
+.wrapper_result {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+.field {
+    width: 170px;
+    height: 170px;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+img {
+    width: 120px;
+}
+
+.count {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: greenyellow;
+    margin-top: 70px;
+}
+
+.count_result {
+    font-weight: bold;
+    font-size: 40px;
+}
+
